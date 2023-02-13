@@ -1,0 +1,49 @@
+body
+  max-width: 600px
+  position: relative
+  margin: auto
+  box-shadow: 0px 0px 6px 0px #ebebeb
+  height: 2000px
+
+main
+  width: 100%
+  padding: 20px
+
+.category_section_box
+  margin: auto
+  height: 138px
+  &_btn
+    position: relative
+    background-color: #eee
+    color: #444
+    cursor: pointer
+    padding: 18px
+    width: 100%
+    border: none
+    text-align: left
+    outline: none
+    font-size: 15px
+    transition: 0.4s
+    height: 140px
+    border-radius: 24px
+
+
+
+.active, .category_section_box_btn:hover 
+  
+
+
+.category_section_box_btn:after 
+  content: '' 
+
+
+.active:after 
+  content: ""
+
+
+.category_section_box_list 
+  padding: 0 18px
+  background-color: white
+  max-height: 0
+  overflow: hidden
+  transition: max-height 0.2s ease-out
